@@ -56,17 +56,18 @@ header nav li:last-of-type a{
 .main_banner{
     background-image: url("../images/main_bg.png");
     background-size: cover;
+    background-repeat: no-repeat;
     height: calc(100vh - 83px);
-    display: flex;
-    align-items: end;
+    display: flex; 
     justify-content: center;
+    align-items: end;
     padding-bottom: 71px;
 }
 .main_banner .container{
     max-width: 580px;
     text-align: center;
-    margin-auto: inherit;
-}
+    margin: inherit;
+    }
 .main_banner h3{
     color: #C0C0C0;
     text-align: center;
@@ -80,20 +81,157 @@ header nav li:last-of-type a{
     }
 .main_banner h1{
     color: #FFF;
-text-align: center;
-font-family: Poppins;
-font-size: 54px;
-font-style: normal;
-font-weight: 400;
-line-height: 59.4px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 59.4px;
 }
 .main_banner p{
     color: #C0C0C0;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.SunsetMount{
+    min-height: 600px;
+    background-image: url("../images/SunsetMount.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: end;    
+}
 
-text-align: center;
-font-family: Poppins;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 20px;
+.SunsetMount .container{
+    max-width: 298px;
+    margin-right: 62px;
+}
+.SunsetMount h2{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.SunsetMount p{
+    color: #C0C0C0;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.monstera{
+    min-height: 600px;
+    background-image: url("../images/monstera.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    display: flex;
+    align-items: center;
+    justify-content: end;    
+}
+
+.monstera .container{
+    max-width: 298px;
+    margin-right: 60px;
+}
+.monstera h2{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.monstera p{
+    color: #C0C0C0;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+                    .pastclients{
+                        
+                        min-height: 600px;
+                        background-color: #000;
+                        display: flex;
+                    }
+
+                    .pastclients .container{
+                        min-width: 1200px;                       
+                        text-align: center;                      
+                    }
+                    .pastclients h2{
+                        
+                        color: #FFF;
+                        text-align: center;
+                        font-family: Poppins;
+                        font-size: 40px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 42px;
+                    }
+                    .pastclients h3{
+                        margin: 15px;
+                        color: #C0C0C0;
+                        text-align: center;
+                        font-family: Poppins;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 30px;                       
+                    }
+                    .clientslist{                                        
+                        margin-top: 40px;                        
+                        padding: 40px 46px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                    }
+.starfall{
+    min-height: 600px;
+
+    background-image: url("../images/starfall.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: end;    
+}
+
+.starfall .container{
+    max-width: 298px;
+    margin-right: 60px;
+}
+.starfall h2{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.starfall p{
+    color: #C0C0C0;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
 }
