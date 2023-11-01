@@ -35,7 +35,9 @@ header nav li:last-of-type{
 }
 header nav li a{
     color: #FFF;
-    font-family: Poppins;
+    font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -62,6 +64,7 @@ header nav li:last-of-type a{
     justify-content: center;
     align-items: end;
     padding-bottom: 71px;
+    position: relative;
 }
 .main_banner .container{
     max-width: 580px;
@@ -71,7 +74,9 @@ header nav li:last-of-type a{
 .main_banner h3{
     color: #C0C0C0;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -82,7 +87,9 @@ header nav li:last-of-type a{
 .main_banner h1{
     color: #FFF;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
     font-size: 54px;
     font-style: normal;
     font-weight: 400;
@@ -91,7 +98,9 @@ header nav li:last-of-type a{
 .main_banner p{
     color: #C0C0C0;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -104,7 +113,8 @@ header nav li:last-of-type a{
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
-    justify-content: end;    
+    justify-content: end;  
+    position: relative;  
 }
 
 .SunsetMount .container{
@@ -113,7 +123,9 @@ header nav li:last-of-type a{
 }
 .SunsetMount h2{
     color: #FFF;
-    font-family: Poppins;
+    font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -123,7 +135,9 @@ header nav li:last-of-type a{
 }
 .SunsetMount p{
     color: #C0C0C0;
-    font-family: Poppins;
+    font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -134,11 +148,11 @@ header nav li:last-of-type a{
     min-height: 600px;
     background-image: url("../images/monstera.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
-  
+    background-repeat: no-repeat;  
     display: flex;
     align-items: center;
-    justify-content: end;    
+    justify-content: end;  
+    position: relative;  
 }
 
 .monstera .container{
@@ -147,7 +161,9 @@ header nav li:last-of-type a{
 }
 .monstera h2{
     color: #FFF;
-    font-family: Poppins;
+    font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -157,7 +173,9 @@ header nav li:last-of-type a{
 }
 .monstera p{
     color: #C0C0C0;
-    font-family: Poppins;
+    font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -169,6 +187,7 @@ header nav li:last-of-type a{
                         min-height: 600px;
                         background-color: #000;
                         display: flex;
+                        position: relative;
                     }
 
                     .pastclients .container{
@@ -179,7 +198,9 @@ header nav li:last-of-type a{
                         
                         color: #FFF;
                         text-align: center;
-                        font-family: Poppins;
+                        font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
                         font-size: 40px;
                         font-style: normal;
                         font-weight: 400;
@@ -189,7 +210,9 @@ header nav li:last-of-type a{
                         margin: 15px;
                         color: #C0C0C0;
                         text-align: center;
-                        font-family: Poppins;
+                        font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
                         font-size: 24px;
                         font-style: normal;
                         font-weight: 400;
@@ -210,7 +233,8 @@ header nav li:last-of-type a{
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
-    justify-content: end;    
+    justify-content: end; 
+    position: relative;   
 }
 
 .starfall .container{
@@ -219,7 +243,9 @@ header nav li:last-of-type a{
 }
 .starfall h2{
     color: #FFF;
-    font-family: Poppins;
+    font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -229,9 +255,59 @@ header nav li:last-of-type a{
 }
 .starfall p{
     color: #C0C0C0;
-    font-family: Poppins;
+    font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
+}
+.icons{
+    position: absolute;
+    right: 40px;
+    bottom: 41px;
+    display: flex;
+}
+.icons{
+    position: absolute;
+    right: 40px;
+    bottom: 41px;
+    display: flex;
+}
+.icons li{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    margin-left: 16px;
+    list-style: none;
+}
+.icons li:before{
+    display: inline-block;
+    content:"";
+    background-image: url("../images/time.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    margin-bottom: -6px;    
+}
+.icons li:nth-child(2):before{
+    background-image: url("../images/circle.svg");
+}
+
+.icons li:nth-child(3):before{
+    background-image: url("../images/iso.svg");
+    width: 32px;
+    margin-right: 7px;
+}
+
+.icons li:last-of-type:before{
+    background-image: url("../images/drop.svg");
+    width: 10px;
+    margin-right: 5px;
 }
