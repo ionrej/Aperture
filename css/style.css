@@ -301,6 +301,7 @@ header nav li:last-of-type a{
     margin-left: 16px;
     list-style: none;
 }
+/* :after и :before всегда работают в паре с content:"" */
 .icons li:before{
     display: inline-block;
     content:"";
@@ -310,6 +311,7 @@ header nav li:last-of-type a{
     margin-right: 6px;
     margin-bottom: -6px;    
 }
+
 .icons li:nth-child(2):before{
     background-image: url("../images/circle.svg");
 }
@@ -324,4 +326,73 @@ header nav li:last-of-type a{
     background-image: url("../images/drop.svg");
     width: 10px;
     margin-right: 5px;
+}
+.progress{
+    width: 300px;
+    height: 50px;
+    border: solid 2px black;
+    border-radius: 12px;
+    margin: 100px;
+    overflow: hidden;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+}
+/* :after и :before всегда работают в паре с content:"" */
+.progress:before{
+    display: inline-block;
+    content: "";
+    background-color: red;
+    width: 33%;
+    height: 50px;
+}
+/* :after и :before всегда работают в паре с content:"" */
+.progress:after{
+    display: inline-block;
+    content: ""; 
+    background-color: green;
+    width: 33%;
+    height: 50px;
+}
+.gear_cage{
+    min-height: 540px;
+    position: relative;
+    background-color: black;
+}
+/* :after и :before всегда работают в паре с content:"" */
+.gear_cage:after{
+    width: 50%; /* чтобыбэкграунд занял половину размера секции */
+    height: 100%; /* чтобы бэкграунд занял 100% высоты и был адаптивным*/ 
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url("../images/IMAGE.jpg");
+    background-size: cover;
+    content: "";
+    display: block;
+}
+.gear_cage .container{
+ max-width: 1240px;
+ align-items: center;
+ display: flex;
+ min-height: 540px;  
+}
+.gear_cage .container article{
+ max-width: 514px;
+}
+.what_we_do{
+    background-color: black;
+}
+.what_we_do .d_flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.what_we_do .d_flex article{
+    margin-bottom: 16px;
+    max-width: 576px;
+}
+.what_we_do .d_flex article img{
+    width: 100%;
+    display: block;
 }
