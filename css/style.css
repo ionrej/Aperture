@@ -75,6 +75,7 @@ header nav li:last-of-type a{
     right: 40px;
     bottom: 41px;
     display: flex;
+    z-index: 3;
 }
 /* Стилизация иконок */
 .icons li{
@@ -672,9 +673,7 @@ letter-spacing: 0.4px
     height: 50px;
 }
 .gear_cage{
-    
     min-height: 540px;
-    position: relative;
     background-color: black;
     position: relative;
 }
@@ -692,19 +691,18 @@ letter-spacing: 0.4px
     display: block;
 }
 .gear_cage .container { 
-
-margin: 0 100px;
+display: flex;
+justify-content: space-between;
 max-width: 1240px;
 align-items: center;
-display: flex;
 min-height: 540px;  
 }
 .gear_cage .tools{
 max-width: 514px;
 }
-.gear_cage .icons{
-    z-index: 1;
-}
+/* .gear_cage .icons{
+    z-index: 3;
+} */
 .gear_cage h3{
     color: #C0C0C0;
     font-family: Poppins;
