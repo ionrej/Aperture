@@ -740,6 +740,14 @@ max-width: 514px;
     text-decoration: none;    
     border-radius: 14px;
     background: #FFF;
+    /* Шрифт кнопки */
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.4px;
 }
 .tools a:before {
     content: "";    
