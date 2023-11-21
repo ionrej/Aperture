@@ -843,9 +843,9 @@ color: #ffff;
     display: flex;
     align-items: center;
      }
-     /* .clientslist .owl-stage .owl-item{
+     .clientslist .owl-stage .owl-item{
         text-align: center;
-     } */
+     }
 
     .clientslist.owl-carousel{
     text-align: center;
