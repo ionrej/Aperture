@@ -601,6 +601,10 @@ letter-spacing: 0.4px
                         justify-content: space-between;
                         align-items: center;
                     }
+                    .clientslist a{
+                    max-width: 128px;
+                    display:inline-block;
+                    }
 /* Секция pastclients */
 /* Секция starfall */
 .starfall{
@@ -773,6 +777,7 @@ max-width: 514px;
     align-items: center;
     align-content: center; */
 }
+
 .need_help .container h4{
     color: #FFF;
 text-align: center;
@@ -829,3 +834,7 @@ letter-spacing: 0.4px;
     background-size: cover;
     margin-right: 5px;
 }/* Кнопка */
+ /* Карусель */
+ .owl-carousel{
+color: #ffff;
+ }

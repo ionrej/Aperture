@@ -3,11 +3,12 @@
     
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" 
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Aperture</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">    
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css"><!-- Подключение скриптов -->
     <link rel="stylesheet" href="css/media.css">
 </head>
 
@@ -175,10 +176,20 @@
             <section class="pastclients">
                 <div class="container">
                     <h2>Past clients</h2>
-                        <h3>Trusted by your favorites companies</h3>                                    
+                        <h3>Trusted by your favorites companies</h3>    
+                        <!-- Set up your HTML -->
+                            <div class="owl-carousel" style>
+                                <div> Your Content </div>
+                                <div> Your Content </div>
+                                <div> Your Content </div>
+                                <div> Your Content </div>
+                                <div> Your Content </div>
+                                <div> Your Content </div>
+                                <div> Your Content </div>
+                            </div>                                
                         
                             
-                    <div class="clientslist">
+                    <div class="clientslist owl-carousel">
                                     <a href="#">
                                         <img src="images/hillehayes.svg" alt="HilleHayes">
                                     </a>
@@ -229,7 +240,10 @@
            
 
         </main>
-    
+        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" 
+        crossorigin="anonymous"></script>
+        <script src="owlcarousel/owl.carousel.min.js"></script>
+        <script src="js/scripts.js"></script>
 </body>
 </html>
 
