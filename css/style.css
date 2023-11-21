@@ -600,6 +600,7 @@ letter-spacing: 0.4px
                         display: flex;
                         justify-content: space-between;
                         align-items: center;
+
                     }
                     .clientslist a{
                     max-width: 128px;
@@ -838,6 +839,13 @@ letter-spacing: 0.4px;
  .owl-carousel{
 color: #ffff;
  }
+ .clientslist .owl-stage{
+    display: flex;
+    align-items: center;
+     }
+     .clientslist .owl-stage .owl-item{
+        text-align: center;
+     }
  .clientslist.owl-carousel{
     text-align: center;
  }
