@@ -838,3 +838,6 @@ letter-spacing: 0.4px;
  .owl-carousel{
 color: #ffff;
  }
+ .clientslist.owl-carousel{
+    text-align: center;
+ }
