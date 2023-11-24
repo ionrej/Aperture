@@ -851,3 +851,10 @@ color: #ffff;
     text-align: center;
  }
  /* Центровка картинок в карусели */
+.clientslist.owl-carousel. .owl-dots .owl-dot span{
+display: inline-block;
+}
+
+.clientslist.owl-carousel. .owl-dots .owl-dot span{
+
+}
