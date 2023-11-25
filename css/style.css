@@ -836,21 +836,60 @@ letter-spacing: 0.4px;
     margin-right: 5px;
 }/* Кнопка */
  /* Карусель */
- .owl-carousel{
-color: #ffff;
- }
- .clientslist .owl-stage{
+.owl-carousel{
+color: #ffffff;
+}
+.clientslist .owl-stage{
     display: flex;
     align-items: center;
-     }
-     .clientslist .owl-stage .owl-item{
+}
+.clientslist .owl-stage .owl-item{
         text-align: center;
-     }
+}
 
-    .clientslist.owl-carousel{
+.clientslist.owl-carousel{
     text-align: center;
- }
+    
+}
  /* Центровка картинок в карусели */
+ 
+.clientslist.owl-carousel .owl-nav .owl-prev{
+background-color: #FFFFFF;
+width: 45px;
+height: 45px;
+border-radius: 50%;
+display: block;
+position: absolute;
+left: 0px;
+top: 55px;
+}
+.clientslist.owl-carousel .owl-nav .owl-prev:after{
+    display: inline-flex;
+    content: "<";
+    font-size: 25px;
+    
+    color: black;
+    font-weight: 1000;
+    }
+.clientslist.owl-carousel .owl-nav .owl-next{
+    background-color: #FFFFFF;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 55px;
+}
+.clientslist.owl-carousel .owl-nav .owl-next:after{
+display: inline-flex;
+content: ">";
+font-size: 25px;
+
+color: black;
+font-weight: 1000;
+}
+
 .clientslist.owl-carousel. .owl-dots .owl-dot span{
 display: inline-block;
 }
