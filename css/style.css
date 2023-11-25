@@ -890,10 +890,15 @@ color: black;
 font-weight: 1000;
 }
 
-.clientslist.owl-carousel. .owl-dots .owl-dot span{
+.clientslist.owl-carousel .owl-dots .owl-dot span{
 display: inline-block;
+margin: 10px;
+background-color: #FFFFFF;
+border-radius: 50%;
+width: 15px;
+height: 15px;
 }
 
-.clientslist.owl-carousel. .owl-dots .owl-dot span{
+.clientslist.owl-carousel. .owl-dots .owl-dot{
 
 }
