@@ -899,6 +899,6 @@ width: 15px;
 height: 15px;
 }
 
-.clientslist.owl-carousel. .owl-dots .owl-dot{
-
+.clientslist.owl-carousel .owl-dots .owl-dot.active span{
+background-color: green;
 }
