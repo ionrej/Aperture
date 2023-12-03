@@ -7,12 +7,28 @@
         font-size: 12px;
     }
 }
-@media screen and (max-width: 767px) {
-    header nav{
-        display: none;
+@media screen and (max-width: 767px){
+    
+        header nav ul{
+            display: block;
         }
+        
         .main_banner .container{
-            padding: 0 15px;
+            padding: 0;
+        }
+        header nav li{
+            margin-left: 0px;
+        }
+        header nav li:first-of-type{
+            margin-right: 0px;
+        }
+        header nav li:last-of-type{
+            margin-left: 0px;
         }
 }
-
+@media screen and (min-width: 760px){
+    naw-but-wrap{
+        ???????
+    }
+    
+}
