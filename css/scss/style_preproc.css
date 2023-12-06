@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "poppinsregular";
+  src: url("../fonts/poppins-regular-webfont.eot");
+  src: url("../fonts/poppins-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/poppins-regular-webfont.woff2") format("woff2"), url("../fonts/poppins-regular-webfont.woff") format("woff"), url("../fonts/poppins-regular-webfont.ttf") format("truetype"), url("../fonts/poppins-regular-webfont.svg#poppinsregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1168px;
+  margin: auto;
+}
+
+header {
+  background-color: #181818;
+  padding: 24px;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 32px;
+  padding-right: 20px;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  list-sizing: none;
+}
+header nav ul li {
+  margin-left: 32px;
+}
+header nav ul li :first-of-type {
+  margin-right: 24px;
+}
+header nav ul li :first-of-type a {
+  font-size: 13px;
+}
+header nav ul li :last-of-type {
+  margin-left: 32px;
+}
+header nav ul li :last-of-type a {
+  border-radius: 14px;
+  background: #FFF;
+  color: #000;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  padding: 11px 20px;
+}
+header nav ul li a {
+  color: #FFF;
+  font-family: "poppinsregular";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration: none;
+}/*# sourceMappingURL=style_preproc.css.map */
