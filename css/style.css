@@ -902,3 +902,40 @@ height: 15px;
 .clientslist.owl-carousel .owl-dots .owl-dot.active span{
 background-color: green;
 }
+@keyframes bouncing{
+    0%  { bottom: 0; box-shadow: 0 0 5px rgba(0,0,0,0.5); }
+    100% { bottom: 50px; box-shadow: 0 50px 50px rgba(0,0,0,0.1); }
+  }
+    
+  .logo{ 
+   animation: bouncing 0.5s cubic-bezier(0.1,0.25,0.1,1) 0s infinite alternate both; 
+  }
+
+  @keyframes shake {
+    20%{
+        transform: rotate(90deg);
+    }
+    40%{
+        transform: rotate(190deg);
+        left: 30%;
+        top: 200px;
+    }
+    60%{
+        transform: rotate(0deg);
+        left: 0;
+        top: 100px;
+    }
+    90%{
+        transform: rotate(0deg);
+        left: 0;
+        top: 100px;
+    }
+}
+.shake{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    z-index: 10;
+    animation: shake infinite 1s;
+}
